@@ -4,6 +4,8 @@ var Grub = function() {
   this.food = "jelly";
 };
 
-Grub.prototype.eat = function(food){
+Grub.prototype.eat = function(){
 
 };
+
+Bee.prototype = Object.create(Grub.prototype)
